@@ -1,7 +1,7 @@
 # BVE5: Manila LRT1 Scenario Package
 BVE5 Scenario (Map + Train) for Manila LRT line 1
 
-![Alt text](Screenshot.png?raw=true "Screenshot")
+![Alt text](Screenshot.PNG?raw=true "Screenshot")
 
 ## Routes
 1. [Included] Test Track (Bambang → Doroteo Jose)

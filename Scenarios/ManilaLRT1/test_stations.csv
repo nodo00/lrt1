@@ -1,0 +1,4 @@
+BveTs Station List 2.00:utf-8,,,,,,,,,,,,
+#stationKey,stationText,arrivalTime,depertureTime,stoppageTime,defaultTime,signalFlag,alightingTime,passengers,arrivalSoundKey,depertureSoundKey,doorReopen,stuckInDoor
+ST0,Bambang,08:26:50,08:27:05,14,08:26:45,0,5,0.3,,,0.237,1
+ST1,Doroteo Jose,08:28:15,08:28:45,35,08:28:15,0,0,0.8,,,0.451,3

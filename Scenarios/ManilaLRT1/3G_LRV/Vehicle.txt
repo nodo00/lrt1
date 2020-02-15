@@ -1,0 +1,14 @@
+BveTs Vehicle 1.00
+# 京成3500形更新車
+# mackoy, minatono(運転台)
+# 京成電鉄 3500形の更新車です。
+
+PerformanceCurve = notch\notch.txt
+Parameters = parameters.txt
+
+Panel = panel\panel.txt
+
+Sound = sound\sound.txt
+MotorNoise = motornoise\motornoise.txt
+
+Ats = KqAts.dll

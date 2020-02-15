@@ -1,0 +1,18 @@
+BveTs Structure List 1.00
+RailL0, RailL0.x
+RailL1, RailL1.x
+RailL2, RailL2.x
+RailL3, RailL3.x
+RailL4, RailL4.x
+RailR0, RailR0.x
+RailR1, RailR1.x
+RailR2, RailR2.x
+RailR3, RailR3.x
+RailR4, RailR4.x
+Ballast0, Ballast0.x
+Ballast1, Ballast1.x
+Ballast2, Ballast2.x
+Ballast3, Ballast3.x
+Ballast4, Ballast4.x
+Grass, Grass.x
+Bg, Bg.x

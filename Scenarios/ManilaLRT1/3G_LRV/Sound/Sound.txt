@@ -1,0 +1,70 @@
+BveTs Vehicle Sound 3.01
+
+[Rolling]
+0 = Run0.wav
+1 = Run1.wav
+2 = Run2.wav
+3 = Run3.wav
+
+[Flange]
+1 = Flange.wav
+
+[Motor]
+0 = Motor0.wav
+1 = Motor1.wav
+2 = Motor2.wav
+3 = Motor3.wav
+4 = Motor4.wav
+5 = Motor5.wav
+
+[Joint]
+0 = Point.wav
+
+[Brake]
+BcReleaseHigh = Air.wav
+BcRelease = Air.wav
+BcReleaseFull = AirZero.wav
+Emergency = EmrBrake.wav
+
+[Compressor]
+Release = CpEnd.wav
+Loop = CpLoop.wav
+Attack = CpStart.wav
+
+[AirSpring]
+LeftRelease = SpringL.wav
+RightRelease = SpringR.wav
+
+[Horn]
+Primary = Horn.wav
+PrimaryRelease = HornRelease.wav
+Secondary = Klaxon1.wav
+
+[Door]
+OpenLeft = DoorOpen.wav
+OpenRight = DoorOpen.wav
+CloseLeft = DoorClose.wav
+CloseRight = DoorClose.wav
+
+[Ats]
+0 = Bell.wav
+1 = BellReverb.wav
+2 = Halt.wav
+
+;[PilotLamp]
+;On = Leave.wav
+
+[BrakeHandle]
+Min = BrakeRel.wav
+Release = BrakeSlow.wav
+ReleaseFast = BrakeFast.wav
+
+[MasterController]
+Max = McFull.wav
+Min = McDown.wav
+Up =  McUp.wav
+Down = McDown.wav
+
+[Others]
+Noise = Loop.wav
+Shoe = Rub.wav

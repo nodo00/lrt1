@@ -1,0 +1,9 @@
+BveTs Scenario 2.00
+Route = ManilaLRT1\test_track.txt
+Vehicle = ManilaLRT1\3G_LRV\Vehicle.txt
+Title = Manila LRT1 Test Track
+Image = 
+RouteTitle = Manila LRT1
+VehicleTitle = LRTA 3G/12xxx
+Author = ligma8g
+Comment = For Testing.

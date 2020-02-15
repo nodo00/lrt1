@@ -1,0 +1,148 @@
+BveTs Instrument Panel 2.00
+
+[This]
+Resolution = 960
+Left = 0
+Top = 24
+Right = 1024
+Bottom = 1024
+DaytimeImage = panel.png
+NighttimeImage = panel_n.png
+Center = 512, 576
+Origin = 576, 416
+
+
+
+[Needle]
+Subject = kmph
+Location = 568,796
+DaytimeImage = needle_speed.png
+NighttimeImage = needle_speed_n.png
+TransparentColor = 000000
+Origin = 8, 256
+Layer = 9
+Radius = 30
+InitialAngle = -118
+LastAngle = 115
+Minimum = 1
+Maximum = 80
+NaturalFreq = 5
+DampingRatio = 0.8
+
+[Needle]
+Subject = kmph
+Location = 569, 798
+DaytimeImage = needle_speed_shadow.png
+NighttimeImage = needle_speed_null.png
+Origin = 16, 272
+Layer = 5
+Radius = 31
+InitialAngle = -118
+LastAngle = 115
+Minimum = 1
+Maximum = 80
+NaturalFreq = 5
+DampingRatio = 0.8
+
+
+[Needle]
+Subject = sap
+Location = 63,835
+DaytimeImage = needle_prs_low.png
+NighttimeImage = needle_prs_low_n.png
+TransparentColor = 000000
+Origin = 32, 164
+Layer = 8
+Radius = 29
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = sap
+Location = 63,835
+DaytimeImage = needle_prs_low_shadow.png
+NighttimeImage = needle_prs_null.png
+Origin = 32, 170
+Layer = 5
+Radius = 30
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Needle]
+Subject = bc
+Location = 63,835
+DaytimeImage = needle_prs_up.png
+NighttimeImage = needle_prs_up_n.png
+TransparentColor = 000000
+Origin = 32, 164
+Layer = 9
+Radius = 28
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+[Pilotlamp]
+Subject = true
+Location = 642, 819
+DaytimeImage = press2.png
+NighttimeImage = press2_n.png
+TransparentColor = 000000
+Layer = 10
+
+
+[Needle]
+Subject = mr
+Location = 63,835
+DaytimeImage = needle_prs_low_shadow.png
+NighttimeImage = needle_prs_null.png
+Origin = 32, 170
+Layer = 5
+Radius = 30
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 0
+
+[Needle]
+Subject = er
+Location = 63,835
+DaytimeImage = needle_prs_up.png
+NighttimeImage = needle_prs_up_n.png
+TransparentColor = 000000
+Origin = 32, 164
+Layer = 9
+Radius = 31
+InitialAngle = -129
+LastAngle = 134
+Minimum = 10
+Maximum = 1000
+NaturalFreq = 80
+DampingRatio = 0.1
+
+
+
+# ATS
+#[Pilotlamp]
+#Subject = ats0
+#Location = 16, 606
+#DaytimeImage = ats15.bmp
+#TransparentColor = 000000
+#Layer = 10
+#[Pilotlamp]
+#Subject = ats1
+#Location = 16, 558
+#DaytimeImage = ats45.bmp
+#TransparentColor = 000000
+#Layer = 10

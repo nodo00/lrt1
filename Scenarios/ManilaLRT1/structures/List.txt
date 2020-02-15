@@ -1,0 +1,24 @@
+BveTs Structure List 1.00
+MainRail, Rail\Rail.x
+Block_1, concrete\block1v1_1.x
+Gantry_1, gantry\gantry1.x
+Platform_1, platform\platform1.x
+Fence_1, Fence\fence1.x
+RailL0, mackoy\RailL0.x
+RailL1, mackoy\RailL1.x
+RailL2, mackoy\RailL2.x
+RailL3, mackoy\RailL3.x
+RailL4, mackoy\RailL4.x
+RailR0, mackoy\RailR0.x
+RailR1, mackoy\RailR1.x
+RailR2, mackoy\RailR2.x
+RailR3, mackoy\RailR3.x
+RailR4, mackoy\RailR4.x
+Ballast0, mackoy\Ballast0.x
+Ballast1, mackoy\Ballast1.x
+Ballast2, mackoy\Ballast2.x
+Ballast3, mackoy\Ballast3.x
+Ballast4, mackoy\Ballast4.x
+Grass, mackoy\Grass.x
+Bg, mackoy\Bg.x
+StopMarker_1, stopmarker\marker1.x

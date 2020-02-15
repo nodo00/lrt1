@@ -1,0 +1,67 @@
+BveTs Map 2.02:utf-8
+
+#This map is currently in early develoment
+#structures such as the background and the ballast are not mine
+#(includes the train too)
+#they belong to mackoy (the creator of the program)
+#structures are from the english tutorial of his site on bvets.net
+
+Structure.Load('structures\List.txt'); #own structures + samples
+
+#set gauge: standard gauge
+Curve.SetGauge(1.435);
+
+#set background
+Background.Change('Bg');
+
+Station.Load('test_stations.csv');
+
+#set "green mat"
+Repeater['Grass'].Begin(, 0, -8, 0, 0, 0, 0, 1, 25, 25, 'Grass');
+
+#begin concrete
+#Repeater['BLK_1'].Begin(, -6.5, -0.4, 0, 0, 90, 0, 0, 1, 5, 'block_1','block_1','block_1','block_1');
+#use beta concrete fence
+Repeater['BLK_1'].Begin(, -5, 0, 1.3, 0, 270, 0, 0, 1, 0.5, 'Fence_1');
+Repeater['BLK_2'].Begin(, 1.7, 0, 1.3, 0, 90, 0, 0, 1, 0.5, 'Fence_1');
+
+#repeat gantry
+#Repeater['Gantry_1'].Begin(, -4, 0, 0, 0, 0, 0, 3, 5, 5, 'Gantry_1');
+
+
+-5;
+Repeater['GantryR1'].Begin(, 2.6, -5.0, -0.3, 0, 180, 0, 3, 1, 33, 'Gantry_1');
+
+#begin main track
+Track['Main'].Position(0, 12);
+
+#add repeaters for the main track
+Repeater['Ballast'].Begin(, 0, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+Repeater['RailL'].Begin(, -0.7175, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+Repeater['RailR'].Begin(, 0.7175, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+#add repeaters for opposite track
+Repeater['Ballast2'].Begin(, -4, 0, 0, 0, 0, 0, 3, 5, 5, 'Ballast0');
+
+
+50;
+#add platform
+Repeater['BLK_2'].End();
+Repeater['GantryR1'].End();
+Repeater['PL_1'].Begin(, 1.5, 0, 1.3, 0, 90, 0, 0, 1, 1, 'Platform_1');
+198;
+Station['ST0'].Put(1, -0.4, 0.5);
+200;
+Repeater['PL_1'].End();
+200.6;
+Structure['StopMarker_1'].Put(, 1.9, 0, 1, 0, 85, 0, 0, 0.5);
+
+
+200;
+Repeater['BLK_2'].Begin(, 1.8, 0, 1.3, 0, 90, 0, 0, 1, 0.5, 'Fence_1');
+Repeater['GantryR1'].Begin(, 2.6, -5.0, -0.3, 0, 180, 0, 3, 1, 33, 'Gantry_1');
+
+998;
+Structure['StopMarker_1'].Put(, 1.9, 0, 1, 0, 85, 0, 0, 0.5);
+1000;
+Station['ST1'].Put(1, -0.4, 0.5);

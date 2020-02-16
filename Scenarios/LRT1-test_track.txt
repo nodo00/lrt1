@@ -5,5 +5,5 @@ Title = Manila LRT1 Test Track
 Image = 
 RouteTitle = Manila LRT1
 VehicleTitle = LRTA 3G/12xxx
-Author = ligma8g
+Author = nodo00
 Comment = For Testing.

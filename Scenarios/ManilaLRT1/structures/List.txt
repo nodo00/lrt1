@@ -22,3 +22,5 @@ Ballast4, mackoy\Ballast4.x
 Grass, mackoy\Grass.x
 Bg, mackoy\Bg.x
 StopMarker_1, stopmarker\marker1.x
+StationRoof_1,station\station_roof_1.x
+StationRoof_2,station\station_roof_2.x
